@@ -24,7 +24,7 @@
                 <img class="album-music" :src="card.poster" alt="">
                 <span class="title">{{ card.title }}</span>
                 <span class="author">{{ card.author }}</span>
-                <span class="year">{{ card.year }}></span>
+                <span class="year">{{ card.year }}</span>
             </div>
 
         </div>
