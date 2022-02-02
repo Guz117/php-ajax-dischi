@@ -16,7 +16,19 @@
     <?php include_once __DIR__ . '/partials/header.php' ?>
 
     <!-- main -->
-    <?php include_once __DIR__ . '/partials/main.php' ?>
+    <!-- <?php include_once __DIR__ . '/partials/main.php' ?> -->
+    <main id="app">
+        <div class="album">
+
+            <div class="music" v-for="card in cards">
+                <img class="album-music" :src="card.poster" alt="">
+                <span class="title">{{ card.title }}</span>
+                <span class="author">{{ card.author }}</span>
+                <span class="year">{{ card.year }}></span>
+            </div>
+
+        </div>
+    </main>
 
 
     <!-- footer -->
