@@ -15,7 +15,6 @@ header img {
 
 main {
   width: 100%;
-  height: calc(100vh - 70px);
   background-color: #1e2d3b;
 }
 
@@ -28,4 +27,40 @@ footer {
 
 footer p {
   color: white;
+}
+
+.music {
+  width: 150px;
+  text-align: center;
+  background-color: #2e3a46;
+}
+
+.album {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 3em;
+  padding-bottom: 10em;
+}
+
+.album-music {
+  width: 100%;
+}
+
+span {
+  display: block;
+  color: white;
+}
+
+.title {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.author,
+.year {
+  color: lightgray;
+  font-size: 0.6em;
 }
