@@ -6,8 +6,26 @@
 
 header {
   background-color: #2e3a46;
+  height: 50px;
 }
 
 header img {
   width: 50px;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: #1e2d3b;
+}
+
+footer {
+  background-color: #2e3a46;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+}
+
+footer p {
+  color: white;
 }
