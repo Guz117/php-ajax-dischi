@@ -12,22 +12,24 @@
 </head>
 
 <body>
-    <!-- header -->
-    <?php include_once __DIR__ . '/partials/header.php' ?>
+    <div id="app">
+        <!-- header -->
+        <?php include_once __DIR__ . '/partials/header.php' ?>
 
-    <!-- main -->
-    <main id="app">
-        <div class="album">
+        <!-- main -->
+        <main>
+            <div class="album">
 
-            <div class="music" v-for="card in cards">
-                <img class="album-music" :src="card.poster" alt="">
-                <span class="title">{{ card.title }}</span>
-                <span class="author">{{ card.author }}</span>
-                <span class="year">{{ card.year }}</span>
+                <div class="music" v-for="card in cards">
+                    <img class="album-music" :src="card.poster" alt="">
+                    <span class="title">{{ card.title }}</span>
+                    <span class="author">{{ card.author }}</span>
+                    <span class="year">{{ card.year }}</span>
+                </div>
+
             </div>
-
-        </div>
-    </main>
+        </main>
+    </div>
 
 
     <!-- footer -->

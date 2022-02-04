@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
-header {
+body {
   background-color: #2e3a46;
+}
+
+header {
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header img {
